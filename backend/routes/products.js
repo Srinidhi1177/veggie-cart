@@ -2,7 +2,7 @@ const router = require('express').Router();
 const Product = require('../models/Product');
 
 const seedProducts = [
-  { name: 'Tomato', price: 30, stock: 200, emoji: '🍅', image: 'https://images.unsplash.com/photo-1582284540020-8acbe03f4924?w=400', description: 'Fresh, ripe tomatoes from local farms', unit: 'kg' },
+  { name: 'Tomato', price: 30, stock: 200, emoji: '🍅', image: 'https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=400', description: 'Fresh, ripe tomatoes from local farms', unit: 'kg' },
   { name: 'Potato', price: 25, stock: 300, emoji: '🥔', image: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=400', description: 'Crisp potatoes perfect for frying or boiling', unit: 'kg' },
   { name: 'Carrot', price: 40, stock: 150, emoji: '🥕', image: 'https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=400', description: 'Sweet, crunchy carrots packed with nutrients', unit: 'kg' },
   { name: 'Spinach', price: 20, stock: 100, emoji: '🥬', image: 'https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=400', description: 'Fresh green spinach leaves, farm-harvested', unit: 'bunch' },
@@ -12,7 +12,7 @@ const seedProducts = [
   { name: 'Capsicum', price: 55, stock: 120, emoji: '🫑', image: 'https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=400', description: 'Colourful bell peppers, sweet and crunchy', unit: 'kg' },
   { name: 'Cucumber', price: 22, stock: 180, emoji: '🥒', image: 'https://images.unsplash.com/photo-1604977042946-1eecc30f269e?w=400', description: 'Cool, crisp cucumbers, freshly picked', unit: 'kg' },
   { name: 'Cauliflower', price: 45, stock: 90, emoji: '🌸', image: 'https://images.unsplash.com/photo-1568584711271-6c929fb49b60?w=400', description: 'Snow-white cauliflower heads, farm fresh', unit: 'kg' },
-  { name: 'Peas', price: 50, stock: 130, emoji: '🫛', image: 'https://unsplash.com/photos/a-close-up-of-peas-sUdTHp5iOQI?w=400', description: 'Sweet green peas, perfect for curries', unit: '500g' },
+  { name: 'Peas', price: 50, stock: 130, emoji: '🫛', image: 'https://images.unsplash.com/photo-1515543904379-3d757afe72e4?w=400', description: 'Sweet green peas, perfect for curries', unit: '500g' },
   { name: 'Corn', price: 15, stock: 250, emoji: '🌽', image: 'https://images.unsplash.com/photo-1551754655-cd27e38d2076?w=400', description: 'Sweet corn cobs, fresh from the field', unit: 'piece' },
 ];
 
